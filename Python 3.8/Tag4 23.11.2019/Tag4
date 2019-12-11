@@ -1,0 +1,47 @@
+"""
+Module
+
+"""
+import  # Importtiert Module
+
+# Modul Time
+import time
+time.time_ns()
+from time import sleep  # Importiert nur das Modul sleep aus time
+sleep(30)   # Es wird 30 Sekunden gewartet, bis es weiter geht
+from time import sleep as slp   # Wertere Unter Module von time->sleep
+
+# Modul sys
+# Beispiel für sys
+import sys
+if len(sys.argv) > 1 and sys.argv[1] == "/?":
+    print("Hier könnte deine Hilfe stehen")
+else:
+    print(sys.argv)
+
+# beispiel 2 für sys
+import sys
+sys.winver  # Gibt die Version von Python aus
+sys.platform    # Gibt die Platform aus
+sys.exit(0) # geht aus der Anwendung raus
+
+# Modul random
+# beispiel für random
+random.random() # Gibt ne Zufallzahl aus
+
+# Modul math
+dir(math)   # Gibt alle Befehle zu math aus
+# beispiel für math
+*180/PI     #Zeichnen mit math // 180 Grad Kreis 
+*PI/180
+
+# Module
+time    # Modul time gibt alles aus was mit Zeit zu tun hat
+sys     # Modul sys gibt Commandozeilen aus
+random  # Modul random gibt Zufall Werte aus
+math    # Modul math gibt alles zu Mathe aus
+
+os.listdir()    # Inhalt von Aktuelles Verzeichnis ausgeben
+os.rmdir("Ordnername")  #Ordner anlegen
+os.system(cls)  #Bildschirm löschen
+os.get_terminal_size()  # Größe der Console

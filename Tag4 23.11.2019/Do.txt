@@ -1,2 +1,0 @@
-break & continue in schleifen
-Mudule: sys, os, time, random
